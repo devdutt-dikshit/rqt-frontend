@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     margin: theme.spacing(1),
-    backgroundColor: theme.palette.secondary.main,
+    color:"#000"
   },
   form: {
     width: '100%',
@@ -75,13 +75,13 @@ export default function SignInSide() {
         >
             <Grid item>
             
-                        <Avatar className={classes.avatar}>
-                            <LockOutlinedIcon />
-                        </Avatar>
+                        
+                            <LockOutlinedIcon color="primary" fontSize="large"/>
+                        
             </Grid> 
             <Grid item>
                         <FacebookLogin
-                            textButton="signup with facebook"
+                            textButton="signin with facebook"
                             size="small"    
                             appId="322328726286325"
                             autoLoad={false}
