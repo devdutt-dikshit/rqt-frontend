@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ChatApp from './root/signup';
+import App from './app';
 
-ReactDOM.render(<ChatApp />,document.getElementById('root'));
+ReactDOM.render(<App />,document.getElementById('root'));
